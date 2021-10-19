@@ -6,6 +6,7 @@ To recover search_data.csv, which is too large for github, do
 
 Verify it all went ok with
 
+`wc -l *`
 
 ## Challenge description
 
