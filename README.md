@@ -42,84 +42,84 @@ been only slightly modified for this challenge.
 
 The Data
 Search Data
-   ● search_id - Unique id for the search.
-   ● search_time - UTC timestamp of search.
-   ● currency - 3-letter currency code of the airfare.
-   ● destination - 3-letter airport code of the destination airport.
-   ● search_user_id - FLYR’s unique user ID.
-   ● language - Language in which the search was done.
-   ● origin -  3-letter airport code of the origin airport.
-   ● partner_id - FLYR’s anonymized ID for a partnering travel website.
-   ● passengers - Number of passengers in the flight search.
-   ● pos - Point of Sale, country to which the airfare is being offered.
-   ● session_id - Unique identifier of a search session.
-   ● user_agent - Web browser user agent.
-   ● num_requests - The number of flight itineraries in the search results as seen by FLYR.
-   ● fare - The airfare offered.
-   ● supplier - FLYR’s anonymized ID for a airfare supplier to the travel website.
-   ● cabin_class - cabin class of the flight search.
-   ● carrier_1 - The two letter airline code of the outbound flight itinerary. If there are multiple
+   - search_id - Unique id for the search.
+   - search_time - UTC timestamp of search.
+   - currency - 3-letter currency code of the airfare.
+   - destination - 3-letter airport code of the destination airport.
+   - search_user_id - FLYR’s unique user ID.
+   - language - Language in which the search was done.
+   - origin -  3-letter airport code of the origin airport.
+   - partner_id - FLYR’s anonymized ID for a partnering travel website.
+   - passengers - Number of passengers in the flight search.
+   - pos - Point of Sale, country to which the airfare is being offered.
+   - session_id - Unique identifier of a search session.
+   - user_agent - Web browser user agent.
+   - num_requests - The number of flight itineraries in the search results as seen by FLYR.
+   - fare - The airfare offered.
+   - supplier - FLYR’s anonymized ID for a airfare supplier to the travel website.
+   - cabin_class - cabin class of the flight search.
+   - carrier_1 - The two letter airline code of the outbound flight itinerary. If there are multiple
       flight segments then the carrier codes are separated by semicolons.
-   ● carrier_2 - The two letter airline code of the inbound flight itinerary. If there are multiple
+   - carrier_2 - The two letter airline code of the inbound flight itinerary. If there are multiple
       flight segments then the carrier codes are separated by semicolons.
-   ● flight_num_1 - The flight numbers of the outbound flight itinerary. If there are multiple
+   - flight_num_1 - The flight numbers of the outbound flight itinerary. If there are multiple
       flight segments then the carrier codes are separated by semicolons.
-   ● flight_num_2 - The flight numbers of the inbound flight itinerary. If there are multiple
+   - flight_num_2 - The flight numbers of the inbound flight itinerary. If there are multiple
       flight segments then the carrier codes are separated by semicolons.
-   ● departure_datetime_1 - Departure datetime for each flight segment of the outbound
+   - departure_datetime_1 - Departure datetime for each flight segment of the outbound
       flight itinerary localized to departure airport.
-   ● departure_datetime_2 - Departure datetime for each flight segment of the inbound flight
+   - departure_datetime_2 - Departure datetime for each flight segment of the inbound flight
       itinerary localized to departure airport.
-   ● arrival_datetime_1 - Arrival datetime for each flight segment of the outbound flight
+   - arrival_datetime_1 - Arrival datetime for each flight segment of the outbound flight
       itinerary localized to arrival airport.
-   ● arrival_datetime_2 - Arrival datetime for each flight segment of the inbound flight
+   - arrival_datetime_2 - Arrival datetime for each flight segment of the inbound flight
       itinerary localized to arrival airport.
-   ● itinerary_id - Unique ID for an offered flight itinerary.
+   - itinerary_id - Unique ID for an offered flight itinerary.
 
 Booking Data
-  ● booking_id - Unique ID for the search
-  ● booking_time - UTC timestamp of booking.
-  ● currency - 3-letter currency code of the airfare.
-  ● destination - 3-letter airport code of the destination airport.
-  ● search_user_id - FLYR’s unique user ID.
+  - booking_id - Unique ID for the search
+  - booking_time - UTC timestamp of booking.
+  - currency - 3-letter currency code of the airfare.
+  - destination - 3-letter airport code of the destination airport.
+  - search_user_id - FLYR’s unique user ID.
 
-     ●    language - Language in which the search was done.
-     ●    origin -  3-letter airport code of the origin airport.
-     ●    partner_id - FLYR’s anonymized ID for a partnering travel website.
-     ●    passengers - Number of passengers in the flight search.
-     ●    pos - Point of Sale, country to which the airfare is being offered.
-     ●    session_id - Unique identifier of a search session.
-     ●    user_agent - Web browser user agent.
-     ●    num_requests - The number of flight itineraries in the search results as seen by FLYR.
-     ●    fare - The airfare offered.
-     ●    supplier - FLYR’s anonymized ID for a airfare supplier to the travel website.
-     ●    cabin_class - cabin class of the flight search.
-     ●    carrier_1 - The two letter airline code of the outbound flight itinerary. If there are multiple
+     -    language - Language in which the search was done.
+     -    origin -  3-letter airport code of the origin airport.
+     -    partner_id - FLYR’s anonymized ID for a partnering travel website.
+     -    passengers - Number of passengers in the flight search.
+     -    pos - Point of Sale, country to which the airfare is being offered.
+     -    session_id - Unique identifier of a search session.
+     -    user_agent - Web browser user agent.
+     -    num_requests - The number of flight itineraries in the search results as seen by FLYR.
+     -    fare - The airfare offered.
+     -    supplier - FLYR’s anonymized ID for a airfare supplier to the travel website.
+     -    cabin_class - cabin class of the flight search.
+     -    carrier_1 - The two letter airline code of the outbound flight itinerary. If there are multiple
           flight segments then the carrier codes are separated by semicolons.
-     ●    carrier_2 - The two letter airline code of the inbound flight itinerary. If there are multiple
+     -    carrier_2 - The two letter airline code of the inbound flight itinerary. If there are multiple
           flight segments then the carrier codes are separated by semicolons.
-     ●    flight_num_1 - The flight numbers of the outbound flight itinerary. If there are multiple
+     -    flight_num_1 - The flight numbers of the outbound flight itinerary. If there are multiple
           flight segments then the carrier codes are separated by semicolons.
-     ●    flight_num_2 - The flight numbers of the inbound flight itinerary. If there are multiple
+     -    flight_num_2 - The flight numbers of the inbound flight itinerary. If there are multiple
           flight segments then the carrier codes are separated by semicolons.
-     ●    departure_datetime_1 - Departure datetime for each flight segment of the outbound
+     -    departure_datetime_1 - Departure datetime for each flight segment of the outbound
           flight itinerary localized to departure airport.
-     ●    departure_datetime_2 - Departure datetime for each flight segment of the inbound flight
+     -    departure_datetime_2 - Departure datetime for each flight segment of the inbound flight
           itinerary localized to departure airport.
-     ●    arrival_datetime_1 - Arrival datetime for each flight segment of the outbound flight
+     -    arrival_datetime_1 - Arrival datetime for each flight segment of the outbound flight
           itinerary localized to arrival airport.
-     ●    arrival_datetime_2 - Arrival datetime for each flight segment of the inbound flight
+     -    arrival_datetime_2 - Arrival datetime for each flight segment of the inbound flight
           itinerary localized to arrival airport.
-     ●    itinerary_id - Unique ID for an offered flight itinerary.
+     -    itinerary_id - Unique ID for an offered flight itinerary.
 
 Airport Data
-   ● iata_code - 3-letter IATA airport code.
-   ● city - The name of the city served by the airport, if known.
-   ● country - The name of the country in which the airport is located.
-   ● latitude - Latitude of the airport, if known.
-   ● longitude - Longitude of the airport, if known.
-   ● altitude - Altitude of the airport, if known.
-   ● timezone - Local timezone for the airport.
-   ● dst - Daylight saving time rules for the airport.
-   ● aggregate_code - 1 if the code is for multiple airports in a metropolitan area. 0 if the
+   - iata_code - 3-letter IATA airport code.
+   - city - The name of the city served by the airport, if known.
+   - country - The name of the country in which the airport is located.
+   - latitude - Latitude of the airport, if known.
+   - longitude - Longitude of the airport, if known.
+   - altitude - Altitude of the airport, if known.
+   - timezone - Local timezone for the airport.
+   - dst - Daylight saving time rules for the airport.
+   - aggregate_code - 1 if the code is for multiple airports in a metropolitan area. 0 if the
        code is for a specific airport.
